@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './form.scss';
 
 class Form extends Component {
 	constructor() {
@@ -22,10 +23,15 @@ class Form extends Component {
 		const { value } = this.state;
 		return (
 			<div>
-				<form>
-					<input type='text' value={value} onChange={this.handleChange} />
+				<form className={styles.form}>
+					<input
+						className={styles.input}
+						type='text'
+						value={value}
+						onChange={this.handleChange}
+					/>
 				</form>
-				<p>{value}</p>
+				<p className={styles.paragraph}>{value}</p>
 			</div>
 		);
 	}
