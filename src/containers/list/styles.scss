@@ -1,0 +1,21 @@
+@import '../../styles/partials/variables';
+
+.list {
+    display: grid;
+    column-gap: 10px;
+}
+
+.list__title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-bottom: 1px solid $gray-400;
+}
+
+.list__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-bottom: 1px solid $gray-200;
+    padding: 10px;
+}

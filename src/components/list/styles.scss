@@ -1,0 +1,13 @@
+@import '../../styles/partials/variables';
+
+.list__item_title {
+    font-size: 24px;
+    color: $gray-600;
+    font-weight: $font-weight-bold;
+}
+
+.list__item_items {
+    font-size: $font-size-input;
+    color: $gray-600;
+    font-weight: $font-weight-light;
+}
