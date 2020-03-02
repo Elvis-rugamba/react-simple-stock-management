@@ -8,8 +8,8 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   context: __dirname,
-   entry: './src/index.jsx',
-   output: {
+  entry: './src/index.jsx',
+  output: {
       path: path.resolve( __dirname, 'dist' ),
       filename: 'main.js',
       publicPath: '/',
